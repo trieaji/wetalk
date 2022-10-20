@@ -1,0 +1,5 @@
+npx sequelize-cli model:generate --name siswa --attributes nama:string,jurusan:string,image:string
+
+running migration -> npx sequelize-cli db:migrate
+
+migrasi ulang -> npx sequelize-cli db:migrate:undo
